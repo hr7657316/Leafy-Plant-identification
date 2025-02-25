@@ -11,7 +11,11 @@
     "react-webcam": "^7.2.0",
     "uuid": "^11.1.0"
   },
+<<<<<<< HEAD
  "scripts": {
+=======
+"scripts": {
+>>>>>>> 68fb1078c43d8eb7e7da9aba5806897b3bc1bfb3
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
