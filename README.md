@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Leafy - Plant Identification App 🌿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application that helps users identify plants through image recognition using Google's Generative AI.
 
-## Available Scripts
+## Features 🌟<img width="1468" alt="Screenshot 2025-02-25 at 20 33 26" src="https://github.com/user-attachments/assets/49e2a5d3-e12f-4ca5-8e37-f21cdf446341" />
 
-In the project directory, you can run:
+<img width="1470" alt="Screenshot 2025-02-25 at 20 33 56" src="https://github.com/user-attachments/assets/17e9138d-f561-4000-a968-57c236d07c57" />
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Plant identification through image upload
+- Camera capture support for mobile devices
+- Real-time analysis of plant images
+- Dark/Light theme support
+- History tracking of identified plants
+- Responsive design for all devices
 
-### `npm test`
+## Tech Stack 💻
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React.js (v17.0.2)
+- Bootstrap 5
+- Google Generative AI
+- Local Storage for history management
+- Webcam integration for photo capture
 
-### `npm run build`
+## Prerequisites 📋
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- Google API Key for Generative AI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 
+## Features in Detail 🔍
+### Image Upload
+- Supports drag and drop
+- File size validation
+- Preview before analysis
+### Camera Integration
+- Mobile device camera access
+- Desktop webcam support
+- Real-time capture
+### Plant Analysis
+- Species identification
+- Detailed plant information
+- Health assessment
+### Theme Support
+- Light/Dark mode toggle
+- Persistent theme preference
+- Smooth transitions
+## Contributing 🤝
+1. Fork the repository
+2. Create your feature branch ( git checkout -b feature/AmazingFeature )
+3. Commit your changes ( git commit -m 'Add some AmazingFeature' )
+4. Push to the branch ( git push origin feature/AmazingFeature )
+5. Open a Pull Request
+## License 📄
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acknowledgments 🙏
+- Google Generative AI for plant identification
+- React.js community
+- Bootstrap team
 
-### `npm run eject`
+## Installation 🚀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd react-project
+npm install
+REACT_APP_GOOGLE_API_KEY=your_api_key_here
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+react-project/
+├── public/
+├── src/
+│   ├── Components/
+│   │   ├── FileUpload.js    # Image upload and analysis
+│   │   ├── Header.js        # Navigation header
+│   │   ├── Home.js          # Landing page
+│   │   └── RecentIdentifications.js # History component
+│   ├── Images/            
+ # Static images
+│   ├── context/            
+│   │   └── ThemeContext.js  # Theme management
+│   ├── utils/
+│   │   └── storage.js       # Local storage utilities
+│   └── App.js              # Main application component
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
